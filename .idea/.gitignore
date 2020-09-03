@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../../../:\DEV\UNIP\LTP_LINGUAGEM_C\Aula_01\.idea/dataSources/
+/../../../../../:\DEV\UNIP\LTP_LINGUAGEM_C\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/

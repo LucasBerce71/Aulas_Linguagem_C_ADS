@@ -63,16 +63,16 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\DEV\Curso_C
+CMAKE_SOURCE_DIR = C:\DEV\UNIP\LTP_LINGUAGEM_C\Aula_01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\DEV\Curso_C\cmake-build-debug
+CMAKE_BINARY_DIR = C:\DEV\UNIP\LTP_LINGUAGEM_C\Aula_01\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Curso_C.dir/all
+all: CMakeFiles/Aula_01.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Curso_C.dir/clean
+clean: CMakeFiles/Aula_01.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Curso_C.dir
+# Target rules for target CMakeFiles/Aula_01.dir
 
 # All Build rule for target.
-CMakeFiles/Curso_C.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Curso_C.dir\build.make CMakeFiles/Curso_C.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Curso_C.dir\build.make CMakeFiles/Curso_C.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\DEV\Curso_C\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Curso_C"
-.PHONY : CMakeFiles/Curso_C.dir/all
+CMakeFiles/Aula_01.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aula_01.dir\build.make CMakeFiles/Aula_01.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aula_01.dir\build.make CMakeFiles/Aula_01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\DEV\UNIP\LTP_LINGUAGEM_C\Aula_01\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Aula_01"
+.PHONY : CMakeFiles/Aula_01.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Curso_C.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\Curso_C\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Curso_C.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\Curso_C\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Curso_C.dir/rule
+CMakeFiles/Aula_01.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UNIP\LTP_LINGUAGEM_C\Aula_01\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Aula_01.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\DEV\UNIP\LTP_LINGUAGEM_C\Aula_01\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Aula_01.dir/rule
 
 # Convenience name for target.
-Curso_C: CMakeFiles/Curso_C.dir/rule
+Aula_01: CMakeFiles/Aula_01.dir/rule
 
-.PHONY : Curso_C
+.PHONY : Aula_01
 
 # clean rule for target.
-CMakeFiles/Curso_C.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Curso_C.dir\build.make CMakeFiles/Curso_C.dir/clean
-.PHONY : CMakeFiles/Curso_C.dir/clean
+CMakeFiles/Aula_01.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aula_01.dir\build.make CMakeFiles/Aula_01.dir/clean
+.PHONY : CMakeFiles/Aula_01.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

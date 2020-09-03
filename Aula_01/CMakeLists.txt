@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
-project(Curso_C C)
+project(Aula_01 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Curso_C main.c)
+add_executable(Aula_01 main.c)
