@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-    //INIT
+    printf("Meu Primeiro Programa em C\n");
+	system("pause");
 }
