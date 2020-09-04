@@ -12,6 +12,10 @@ int main() {
     int number;
     printf("Digite um número inteiro qualquer:\n");
     scanf("%i", &number);
-    printf("\nO número digitado foi: %i \n", number);
+    if(number > 0) {
+        printf("\nO número digitado foi: %i \n", number);
+    }else {
+        printf("Digite um número válido\n");
+    }
     system("pause");
 }
